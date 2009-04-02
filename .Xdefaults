@@ -1,0 +1,277 @@
+xft.dpi:        75
+Xft.antialias:        true
+xft.hinting:        true
+xft.rgba:        rgb
+
+*customization:				-color
+
+xterm*termName:				xterm-256color
+xterm*geometry:        90x25
+!xterm*faceName:        Terminus
+xterm*faceName:        monofur
+xterm*faceSize:        10
+xterm*metaSendsEscape:    true
+xterm*colorBDMode:    true
+xterm*cursorBlink:    true
+xterm*veryBoldColors:    14
+xterm*loginShell:    true
+xterm*charClass:    33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48
+xterm*jumpScroll:    true
+xterm*multiScroll:    true
+xterm*boldMode:        true
+xterm*saveLines:    512
+
+!color-scheme 1
+!xterm*background:    #222222
+!xterm*foreground:    #ddccbb
+!xterm*colorBD:        #ffffff
+!xterm*cursorColor:    #ddccbb
+
+!xterm*color0:        #221100
+!xterm*color8:        #554444
+!xterm*color1:        #884422
+!xterm*color9:        #cc5533
+!xterm*color2:        #778800
+!xterm*color10:        #88aa22
+!xterm*color3:        #887733
+!xterm*color11:        #aa9955
+!xterm*color4:        #8866cc
+!xterm*color12:        #9977dd
+!xterm*color5:        #885500
+!xterm*color13:        #996600
+!xterm*color6:        #5555aa
+!xterm*color14:        #7777aa
+!xterm*color7:        #bbaa99
+!xterm*color15:        #ddccaa
+
+!color-scheme 2
+!xterm*background:    #222222
+
+!xterm*background:    #1c1c1c
+xterm*background:    #121212
+xterm*foreground:    #a6a6a6
+!xterm*foreground:    #252525
+xterm*colorBD:       #ffffff
+xterm*cursorColor:   #ddccbb
+
+!Black
+xterm*color0:      #000000
+xterm*color8:      #555753
+! Red
+xterm*color1:      #ff6565
+xterm*color9:      #ff8d8d
+! Green
+xterm*color2:      #93d44f
+xterm*color10:     #c8e7a8
+! Yellow
+xterm*color3:      #eab93d
+xterm*color11:     #ffc123
+! Blue
+xterm*color4:      #204a87
+xterm*color12:     #3465a4
+! Mangenta
+xterm*color5:      #706c9a
+xterm*color13:     #826ab1
+! Cyan
+xterm*color6:      #89b6e2
+xterm*color14:     #46a4ff
+! White
+xterm*color7:      #cccccc
+xterm*color15:     #ffffff
+
+!color-scheme 3
+! Black
+!xterm*color0: #1e1e1e
+!xterm*color8: #555753
+! Red
+!xterm*color1: #CC0000
+!xterm*color9: #EF2929
+! Green
+!xterm*color2: #4E9A06
+!xterm*color10: #8AE234
+! Yellow
+!xterm*color3: #C4A000
+!xterm*color11: #FCE94F
+! Blue
+!xterm*color4: #3465A4
+!xterm*color12: #729FCF
+! Purple
+!xterm*color5: #75507B
+!xterm*color13: #AD7FA8
+! Cyan
+! have to use rgb: here doesnt work otherwise :O
+!xterm*color6: rgb:06/98/9A
+!xterm*color14: #34E2E2
+! White
+!xterm*color7: #9f9f9f
+!xterm*color15: #e0e0e0
+
+
+urxvt.termName:        rxvt
+urxvt.imLocale:        en_US.UTF-8
+urxvt.loginShell:    true
+urxvt.saveLines:    1024
+urxvt.font:        xft:monofur:size=10
+!urxvt.font:        xft:Terminus:size=10
+!urxvt.font:			xft:Iconsolata:size=6
+urxvt.scrollBar:		false
+urxvt.shading:		40
+urxvt.transparent:	true
+urxvt.skipBuiltinGlyphs:true
+urxvt.intensityStyles:    true
+urxvt.geometry:         91x26
+urxvt.inheritPixmap:    true
+urxvt.xftAntialias:    true
+urxvt.jumpScroll:    true
+urxvt.tintColor:    #1c1c1c
+urxvt.cursorBlink:    true
+urxvt.cursorColor:    #ddccbb
+urxvt.cursorColor2:    #000000
+urxvt.background:    #1c1c1c
+urxvt.foreground:    #a6a6a6
+urxvt.colorBD:         #ffffff
+urxvt.colorIT:        #bbbbbb
+urxvt.colorUL:        #999999
+urxvt.underlineColor:    #999999
+
+!Black
+!urxvt*color0:      #000000
+!urxvt*color8:      #555753
+! Red
+!urxvt*color1:      #ff6565
+!urxvt*color9:      #ff8d8d
+! Green
+!urxvt*color2:      #93d44f
+!urxvt*color10:     #c8e7a8
+! Yellow
+!urxvt*color3:      #eab93d
+!urxvt*color11:     #ffc123
+! Blue
+!urxvt*color4:      #204a87
+!urxvt*color12:     #3465a4
+! Mangenta
+!urxvt*color5:      #706c9a
+!urxvt*color13:     #826ab1
+! Cyan
+!urxvt*color6:      #89b6e2
+!urxvt*color14:     #46a4ff
+! White
+!urxvt*color7:      #cccccc
+!urxvt*color15:     #ffffff
+
+
+Aterm*background:    #222222
+Aterm*foreground:    #ddccbb
+Aterm*font:        monofur
+!Black
+*color0:      #000000
+*color8:      #555753
+! Red
+*color1:      #ff6565
+*color9:      #ff8d8d
+! Green
+*color2:      #93d44f
+*color10:     #c8e7a8
+! Yellow
+*color3:      #eab93d
+*color11:     #ffc123
+! Blue
+*color4:      #204a87
+*color12:     #3465a4
+! Mangenta
+*color5:      #706c9a
+*color13:     #826ab1
+! Cyan
+*color6:      #89b6e2
+*color14:     #46a4ff
+! White
+*color7:      #cccccc
+*color15:     #ffffff
+
+
+!black
+!*.color0:        #221100
+!*.color8:        #554444
+!red
+!*.color1:        #884422
+!*.color9:        #cc5533
+!green
+!*.color2:        #778800
+!*.color10:        #88aa22
+!yellow
+!*.color3:        #887733
+!*.color11:        #aa9955
+!blue
+!*.color4:        #8866cc
+!*.color12:        #9977dd
+!magneta
+!*.color5:        #885500
+!*.color13:        #996600
+!cyan
+!*.color6:        #5555aa
+!*.color14:        #7777aa
+!white
+!*.color7:        #bbaa99
+!*.color15:        #ddccaa
+
+XCalc*ti.button1.vertDistance:        4
+XCalc*ti.button2.vertDistance:        4
+XCalc*ti.button3.vertDistance:        4
+XCalc*ti.button4.vertDistance:        4
+XCalc*ti.button5.vertDistance:        4
+XCalc*ti.background:            gray90
+XCalc*ti.bevel.borderColor:        gray65
+XCalc*ti.bevel.borderWidth:        1
+XCalc*ti.bevel.vertDistance:        4
+XCalc*ti.bevel.defaultDistance:        0
+XCalc*ti.bevel.background:              rgb:b/c/b
+XCalc*ti.bevel.screen*background:       rgb:b/c/b
+XCalc*ti.bevel.screen.borderColor:      rgb:b/c/b
+XCalc*ti.bevel.screen.vertDistance:    10
+XCalc*ti.bevel.screen.horizDistance:    10
+XCalc*ti.bevel.screen*left:        chainLeft
+XCalc*ti.bevel.screen*right:        chainRight
+XCalc*ti.bevel.screen*top:        chainTop
+XCalc*ti.bevel.screen*bottom:        chainBottom
+XCalc*ti.bevel.screen*LCD.foreground:    gray10
+XCalc*ti.bevel.screen*INV.vertDistance:    0
+XCalc*ti.Command.borderColor:        gray65
+XCalc*ti.Command.background:        gray85
+XCalc*ti.Command.foreground:        gray30
+XCalc*ti.button5.background:        rgb:e/b/b
+XCalc*ti.button20.background:        rgb:e/d/c
+XCalc*ti.button25.background:        rgb:e/d/c
+XCalc*ti.button30.background:        rgb:e/d/c
+XCalc*ti.button35.background:        rgb:e/d/c
+XCalc*ti.button40.background:        rgb:b/b/e
+XCalc*ti.button22.background:        gray95
+XCalc*ti.button23.background:        gray95
+XCalc*ti.button24.background:        gray95
+XCalc*ti.button27.background:        gray95
+XCalc*ti.button28.background:        gray95
+XCalc*ti.button29.background:        gray95
+XCalc*ti.button32.background:        gray95
+XCalc*ti.button33.background:        gray95
+XCalc*ti.button34.background:        gray95
+XCalc*ti.button37.background:        gray95
+XCalc*ti.button38.background:        gray95
+XCalc*ti.button39.background:        gray95
+
+xmessage*form.okay.shapeStyle:        rectangle
+xmessage*form.okay.background:        IndianRed
+xmessage*form.okay.foreground:        rgb:e/b/b
+xmessage*message*background:        ivory3
+xmessage*background:            gray85
+xmessage*foreground:            gray15
+xmessage*Scrollbar.width:        1
+xmessage*Scrollbar.borderWidth:        0
+xmessage*Text.?.cursorColor:        rgb:d/5/5
+xmessage*Text.borderColor:        gray65
+xmessage*Text*background:        gray95
+xmessage*Command.highlightThickness:    1
+xmessage*Command.internalWidth:        5
+xmessage*Command.internalHeight:    3
+xmessage*Command.borderColor:        gray40
+xmessage*Command.shapeStyle:        Rectangle
+xmessage*Command.background:        gray80
+xmessage*font:                -*-clean-medium-*-*-*-*-*-*-*-*-*-iso8859-2
